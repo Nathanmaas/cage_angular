@@ -1,0 +1,130 @@
+html{
+  background: url(https://wallpaperscraft.com/image/nicolas_cage_texture_portrait_face_58062_1920x1080.jpg) no-repeat center center fixed;
+  background-color: rgba(300, 300, 300, .8);
+  background-blend-mode: color;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+body{
+  font-family: cabin;
+  margin: 0 auto;
+  padding: 0;
+}
+
+body, a, a:hover { cursor:url(http://media.tumblr.com/255ebd97998b716b26e90f728da65f55/tumblr_inline_mpr5y14fge1r6qyth.png), auto
+}
+
+div {
+  font-size: 30px;
+}
+
+.ng-binding{
+  text-align: center;
+}
+
+.ng-scope{
+  margin: 0 auto;
+  width: 845px;
+}
+
+.modal{
+  background-image: url(images/cagebackground.jpg);
+  /*background-color: #EB7252;*/
+}
+.modal-content{
+  background-image: url(images/cagebackground.jpg);
+  background-color: rgba(300, 300, 300, .8);
+  background-blend-mode: color;
+  border-width: 2px;
+  border-color: #6AFFBB;
+}
+
+#modal1text{
+  text-align: center;
+  font-family: cabin;
+  font-color: #EB5D3E;
+}
+
+.gamecontain{
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#title {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #EB5D3E;
+  font-size: 70px;
+}
+
+.toptext{
+  margin-bottom: 50px;
+  color: #337ab7;
+}
+
+.container {
+  width: 165px;
+  height: 200px;
+  position: relative;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -ms-perspective: 800px;
+  -o-perspective: 800px;
+  perspective: 800px;
+}
+
+.card {
+  width: 125%;
+  height: 100%;
+  -webkit-transition: -webkit-transform .5s;
+  -moz-transition: -moz-transform .5s;
+  -ms-transition: -ms-transform .5s;
+  -o-transition: -o-transform .5s;
+  transition: transform .5s;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.card.flipped {
+  -webkit-transform: rotateY( 900deg );
+  -moz-transform: rotateY( 900deg );
+  -ms-transform: rotateY( 900deg );
+  -o-transform: rotateY( 900deg );
+  transform: rotateY( 900deg );
+
+}
+
+.card img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+
+
+.card .back {
+  background: blue;
+  -webkit-transform: rotateY( 180deg );
+  -moz-transform: rotateY( 180deg );
+  -ms-transform: rotateY( 180deg );
+  -o-transform: rotateY( 180deg );
+  transform: rotateY( 180deg );
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
