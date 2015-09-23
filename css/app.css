@@ -2,10 +2,10 @@ html{
   background: url(https://wallpaperscraft.com/image/nicolas_cage_texture_portrait_face_58062_1920x1080.jpg) no-repeat center center fixed;
   background-color: rgba(300, 300, 300, .8);
   background-blend-mode: color;
-  -webkit-background-size: cover;
+/*  -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
 
 }
 body{
