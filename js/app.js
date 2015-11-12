@@ -39,3 +39,7 @@ memoryGameApp.directive('mgCard', function() {
     }
   }
 });
+
+memoryGameApp.run([function(){
+  // console.log('portfolio angular init');
+}]);
